@@ -18,8 +18,10 @@
 
     {{-- Custom CSS --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app-BaVMVknW.css') }}">
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+    <script src="{{ asset('js/app-BwNJRmJ1.js') }}"></script>
 </head>
 <body>
     <div id="app">
